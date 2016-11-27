@@ -1,0 +1,16 @@
+{
+  "name": "intro_sentry",
+  "version": "1.0.0",
+  "description": "ready:",
+  "main": "hello.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "raven": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mozillazg <mozillazg101@gmail.com>",
+  "license": "MIT"
+}
