@@ -39,13 +39,14 @@ pre-commit 的使用
 1. 安装:`pip install pre-commit` or `brew install pre-commit`
 2. 配置: 在 git 项目目录下增加一个配置文件 `.pre-commit-config.yaml` 
    比如:
-  ```
-  $ cat .pre-commit-config.yaml
-  - repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: v0.6.0
-    hooks:
-      - id: flake8
-  ```
+
+   ```
+   $ cat .pre-commit-config.yaml
+   - repo: git://github.com/pre-commit/pre-commit-hooks
+     sha: v0.6.0
+     hooks:
+       - id: flake8
+   ```
 3. 初始化一下: `pre-commit install`
 
 
@@ -58,6 +59,7 @@ $ cat demo.py
 
 def div(m, n):
     return m/n # bla, bla
+
 $ git add demo.py
 $ git commit -m "add test file"
 Flake8...................................................................Failed
